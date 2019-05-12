@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Asma Audit & Conseil | Contactez nous</title>
+        <meta name="description" content="Le cabinet Asma Audit & Conseil est une équipe d’auditeurs professionnels, dynamique, réactive, et proche de ses clients.Toujours à la pointe de l'actualité comptable, le cabinet Asma Audit & Conseil vous accompagne dans tous vos projets.">
+
+        
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,400,300,500,600,700|Chivo:400,700" rel="stylesheet">
+        
+        <link rel="stylesheet" href="css/animate.css">
+        <link rel="stylesheet" href="css/style.css">
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/flexslider/2.6.1/jquery.flexslider.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/masonry/4.1.0/masonry.pkgd.min.js"></script>
+        
+    </head>
+    
+    <body>
+        
+        <section id="contact-accueil">
+            
+            
+            
+            <nav>
+                <div class="nav-wrap">
+                    <input type="checkbox" id="hamburger" />
+                    <label onclick="myFunction()" for="hamburger" class="hamburger">
+                        <span></span>
+                    </label>
+
+                    <label for="hamburger" class="menu-bg">
+                        <a href="index.html">Accueil</a>
+                        <a href="cabinet.html">Cabinet</a>
+                        <a href="equipe.html">Équipe</a>
+                        <a href="services.html">Services</a>
+                        <a href="#">Intranet</a>
+                        <a href="#">Espace Client</a>
+                        <a href="contact.html">Contact</a>
+                        <a href="blog.html">Blog</a>
+                    </label>
+                </div>
+            </nav>
+            
+            
+            <div id="blurry">
+                <div id="fullscreen-bg">
+                    <div id="overlay"></div>
+                    <img src="footage/cityscape-min.jpg" id="fullscreen-bg-video">
+                </div>  
+
+                <center>
+                    <div class="row contact-row">
+
+                        <div class="col-md-7">
+                            <img class="scale-up-center" src="footage/logo.png">
+                        </div>
+                        <div id="contact-info" class="col-md-5">
+                            <h1 class="slide-in-elliptic-bottom-fwd">Contact</h1>
+                            <a href="tel:+221 33 832 75 74"><p><i class="fas fa-phone"></i> (+221) 33 832 75 74 </p></a>
+                            <a href="mailto:contact@sn.asma-audit.com"><p><i class="fas fa-envelope"></i> contact@sn.asma-audit.com</p></a>
+                            <p id="address">Hann Maristes 2 N 1561 
+                            <br>3ème étage gauche 
+                            <br>Dakar, Senegal 
+                            <br>BP: 21300 Dakar Ponty</p>
+                        </div>
+                    </div>
+                </center>
+            </div>
+        </section>
+        
+        
+        
+        
+                <section class="footer">
+        
+            <div class="row content">
+            
+                <div class="footer-img col-md-3">
+                
+                    <img src="footage/logo.png">
+                
+                </div>
+            
+                <div class="footer-text col-md-4">
+                
+                    <p class="footer-para">Le cabinet ASMA AUDIT & CONSEIL est avant tout une équipe de comptables et d’auditeurs professionnels, dynamique, réactive, et proche de ses clients.</p>
+
+                    <p class="footer-para">Toujours à la pointe de l'actualité comptable, le cabinet ASMA AUDIT & CONSEIL vous accompagne dans tous vos projets.</p>
+                    
+                </div>
+                
+                <div class="footer-contact col-md-3 darker-bg">
+                    
+                    <a href="tel:+221 33 832 75 74"><p class="footer-tel"><i class="fas fa-phone"></i> (+221) 33 832 75 74 </p></a>
+                    <a href="mailto:contact@sn.asma-audit.com"><p class="footer-mail"><i class="fas fa-envelope"></i> contact@sn.asma-audit.com</p></a>
+                    
+                </div>
+                
+                <div class="footer-address col-md-2 darker-bg">
+                
+                    <p>Hann Maristes 2 N 1561 
+                    <br>3ème étage gauche 
+                    <br><br>Dakar, Senegal 
+                    <br>BP: 21300 Dakar Ponty </p>
+                
+                </div>
+                
+                <p class="droits">Tout le contenu © 2018 asma-audit.com | Tous les droits reserves</p>
+                
+            </div>
+        
+        
+        </section>
+        
+        
+        <script src="js/wow.min.js"></script>
+        <script>
+            new WOW().init();
+            jQuery(document).ready(function($) {
+                //create the slider
+                $('.cd-testimonials-wrapper').flexslider({
+                    selector: ".cd-testimonials > li",
+                    animation: "slide",
+                    controlNav: true,
+                    slideshow: true,
+                    smoothHeight: true,
+                    slideshowSpeed: 5000,
+                    start: function() {
+                        $('.cd-testimonials').children('li').css({
+                            'opacity': 1,
+                            'position': 'relative'
+                        });
+                    }
+                });
+            });
+            function myFunction() {
+                $('html').toggleClass("overflow");
+                $('#blurry').toggleClass("bluraway");
+                $('.footer').toggleClass("bluraway");
+            }
+        
+        
+        </script>
+        
+    </body>
+    
+</html>
